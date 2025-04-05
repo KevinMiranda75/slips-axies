@@ -29,6 +29,8 @@ const DashboardLayout = () => {
     { name: "Home", href: "/dashboard", icon: Home },
     { name: "Profile", href: "/dashboard/profile", icon: User },
     { name: "Settings", href: "/dashboard/settings", icon: Settings },
+    { name: "New", href: "/dashboard/new", icon: Settings },
+
   ];
 
   return (
