@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { SiwerRequest }   from './shared/SiwerRequest';
 import { Home, User, Settings, Menu, Moon, Sun } from "lucide-react";
 
 const DashboardLayout = () => {
@@ -99,6 +100,7 @@ const DashboardLayout = () => {
               )}
             </Button>
             <span className="text-sm text-muted-foreground">Kevin Miranda</span>
+            <SiwerRequest />
             <div className="h-8 w-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center">
               KM
             </div>
