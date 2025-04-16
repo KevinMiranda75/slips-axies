@@ -74,7 +74,7 @@ const Login = () => {
           <Sun className="h-5 w-5" />
         )}
       </Button>
-      <div className="w-full max-w-md space-y-8 p-8 bg-card rounded-lg shadow-lg dark:bg-gray-800">
+      <div className="w-full max-w-md space-y-8 p-8 bg-card rounded-lg shadow-lg dark:bg-[#13161B]">
         <div className="text-center">
           <h2 className="text-2xl font-bold text-foreground">Welcome back</h2>
           <p className="mt-2 text-sm text-muted-foreground">
